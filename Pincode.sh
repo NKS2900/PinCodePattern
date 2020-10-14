@@ -1,6 +1,6 @@
 #!/bin/bash +x
 echo "------PinCode Pattern-------"
-shopt -s extglob
+
 read -p "Enter pincode no: " pincode
 
 format='^[0-9]{6}$'
