@@ -3,7 +3,7 @@ echo "------PinCode Pattern-------"
 shopt -s extglob
 read -p "Enter pincode no: " pincode
 
-format='^[0-9]{6}$'
+format='^[0-9]{3}[ ]?[0-9]{3}$'
 
 if [[ $pincode =~ $format ]]
 then
